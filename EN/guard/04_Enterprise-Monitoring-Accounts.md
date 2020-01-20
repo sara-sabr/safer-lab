@@ -16,7 +16,9 @@ Create role-based account to enable enterprise monitoring and visibility.
 
 ## Applicable Service Models
 
-* IaaS, PaaS, SaaS
+* Mac
+* ChromeOS
+* Linux
 
 ## References
 

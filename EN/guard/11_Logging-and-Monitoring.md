@@ -2,7 +2,7 @@
 
 ## Objective
 
-Enable logging for the cloud environment and for cloud-based workloads.
+Enable logging for the cloud environment, device logs and for cloud-based workloads.
 
 ## Key Considerations
 
