@@ -2,26 +2,32 @@
 :construction: This is a WORK IN PROGRESS.
 >>>
 
-# SAFER Lab Guardrails
+# SAFER Lab
 
-This project will host the guardrails the SAFER lab will adhere to and implement. The users of this project will be IT Research and Prototyping employees during the duration of the **pilot**. The idea is modeling and inspired from  [GC Cloud Guardrails](https://canada-ca.github.io/cloud-guardrails/).
+This proof of concept will host the SAFER Lab information in an open manner.
 
-## Purpose
+## Vision
 
-The purpose of the guardrails is to ensure we have a baseline set of controls within the SAFER lab. These guardrails ensure we remain secure within 30 days of a device type being onboarded.
+The SAFER lab's vision is to enable ESDC to innovate and try new technologies without impacting ESDC network/security. This enables employees to have the same power as if they were using their personal devices, so a fleet of devices that can be borrowed will everyone has an equal opportunity to try/test/research/prototype what is needed to improve the lives of  Canadians.
 
-## Summary - Initial 30 Days
+## Scope
+A set of devices that are off ESDC and GC network. These devices are managed through MOUs and controls, however usability and security will be balanced to ensure flexibility. To ensure at not time information on Canadian's are at risk, only **unclassifed** data will be allowed to leverage this proof of concept.
 
-| ID. | Guardrail |
-| --- | --- |
-| 01 | [Protect root / global admins account](EN/guard/01_Protect-Root-Account.md) |
-| 02 | [Management of administrative privileges](EN/guard/02_Management-Admin-Privileges.md) |
-| 03 | [MS Intune Console Access](EN/guard/03_MS_Intune_Console_Access.md) |
-| 04 | [Enterprise monitoring accounts](EN/guard/04_Enterprise-Monitoring-Accounts.md) |
-| 05 | [Data location](EN/guard/05_Data-Location.md) |
-| 06 | [Protection of data-at-rest](EN/guard/06_Protect-Data-at-Rest.md) |
-| 07 | [Protection of data-in-transit](EN/guard/07_Protect-Data-in-Transit.md) |
-| 08 | [Segment and separate](EN/guard/08_Segmentation.md) |
-| 09 | [Network security services](EN/guard/09_Network-Security-Services.md) |
-| 10 | [Cyber defense services](EN/guard/10_Cyber-Defense-Services.md) |
-| 11 | [Logging and monitoring](EN/guard/11_Logging-and-Monitoring.md) |
+## Inventory
+
+The lab will start off with the following:
+- Mac Laptops
+- ChomeOS Laptops
+- Linux Laptops
+- Google Home Mini
+- Amazon Echo Dot
+- MIFIs
+- Samsung Galaxy S9
+- Samsung Galaxy Tab Active 2
+- iPhone X
+- iPad Pro
+
+## Details
+
+1. [Guardrails](EN/guard/README.md)
+2. Implementation Information
