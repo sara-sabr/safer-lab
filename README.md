@@ -1,7 +1,3 @@
-----------------------------------------------------
-:construction: This is a WORK IN PROGRESS.
-----------------------------------------------------
-
 # SAFER Lab
 
 This proof of concept (PoC) will host the SAFER Lab information in an open manner for discussion and collaboration as it continiously evolves.
