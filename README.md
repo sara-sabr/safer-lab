@@ -1,6 +1,6 @@
->>>
+----------------------------------------------------
 :construction: This is a WORK IN PROGRESS.
->>>
+----------------------------------------------------
 
 # SAFER Lab
 
@@ -20,14 +20,14 @@ A "library" with an inventory of multiple device types to enable all ESDC employ
 The SAFER lab will be built in phases:
 
 - Phase 1: Buy devices and determine how to operate it with limited patrons who can access the lab.
-    - Devices will remain off ESDC/GC network.
-    - Patron process
-    - Tooling exploration.
-    - Try different ways to manage the devices.
+  - Devices will remain off ESDC/GC network.
+  - Patron process
+  - Tooling exploration.
+  - Try different ways to manage the devices.
 - Phase 2: Expand and formalize the process so all ESDC employees could access the library.
-    - Buy more devices and expand device type options.
-    - Self service kiosk.
-    - Option analysis on possibilities to have ESDC network access.
+  - Buy more devices and expand device type options.
+  - Self service kiosk.
+  - Option analysis on possibilities to have ESDC network access.
 
 ## Goals
 
@@ -55,6 +55,7 @@ The lab user experience must be simple and clear to all parties without requirin
 ## Inventory
 
 The lab will start off with the following:
+
 - Mac Laptops
 - ChomeOS Laptops
 - Linux Laptops
