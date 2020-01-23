@@ -34,7 +34,6 @@ The lab will strive to be as automated as possible in the management of all devi
 1. Automatic Imaging devices as they are returned.
 2. If This, Then That (IFFT) rules based on logs and analytics against devices
 3. Kiosk loan system similar to [McGill](https://blogs.library.mcgill.ca/hsslibrary/laptop-kiosk-laptop-lending-thanks-aus/)
-4. Leverage what's available in the open source community to reduce efforts.
 
 ### Goal 2 - Provide a diverse set of devices
 
@@ -46,7 +45,7 @@ Enable employees to try stuff out within the context of the guardrails. These gu
 
 ### Goal 4 - User Experience
 
-The lab user experience must be simple and clear to all parties without requiring a lawyer to truely understand what the policy or MOU states.
+The lab user experience must be simple and clear to all parties without requiring specialized knowledge to truely understand what the policy or MOU states.
 
 ## Inventory
 
