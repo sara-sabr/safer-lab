@@ -1,5 +1,5 @@
 {
-  "name": "safer-lab-guardrails",
+  "name": "safer-lab",
   "version": "1.0.0",
   "private": true,
   "description": "This project will host the guardrails SAFER lab.",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sara-sabr/safer-lab-guardrails.git"
+    "url": "git+https://github.com/sara-sabr/safer-lab.git"
   },
   "keywords": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sara-sabr/safer-lab-guardrails/issues"
+    "url": "https://github.com/sara-sabr/safer-lab/issues"
   },
-  "homepage": "https://github.com/sara-sabr/safer-lab-guardrails#readme",
+  "homepage": "https://github.com/sara-sabr/safer-lab#readme",
   "devDependencies": {
     "chalk": "^3.0.0",
     "glob": "^7.1.6",
