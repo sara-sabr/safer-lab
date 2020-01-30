@@ -1,15 +1,15 @@
 # SAFER Lab
 
-This proof of concept (PoC) will host the SAFER Lab information in an open manner for discussion and collaboration as it continiously evolves.
+The **S**ecured **A**pproved **F**unctional **E**xperimentation **R**esearch (SAFER) Lab is a proof of concept to explore how to create a safe environment for innovation for all employees.
 
 ## Vision
 
-A "library" with an inventory of multiple device types to enable all ESDC employees an equal opportunity to:
+The "library" consists of an inventory of multiple device types to enable all ESDC employees an equal opportunity to:
 
-1. Try new technologies and learn about them.
-2. Test their products will a multitude of devices/ecosystems.
-3. Investigate new and existing technology capabilities to understand impacts/risks to ESDC.
-4. Prototype ideas earlier to quickly determine business value.
+- **LEARN**: Try new technologies and learn about them.
+- **VALIDATE** : Test products will a multitude of devices and ecosystems.
+- **INVESTIGATE**: Investigate new and existing technology capabilities to understand impacts/risks to ESDC.
+- **IDEATE**: Prototype ideas earlier to quickly determine business value.
 
 ## Scope
 
