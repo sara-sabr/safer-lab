@@ -2,25 +2,43 @@ version: "3"
 services:
   mysql:
     image: mysql:5
-    container_name: snipe_mysql
     restart: always
     volumes:
       - ./db:/var/lib/mysql
+    env_file:
+      - ./.env
     environment:
-      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
-      - MYSQL_USER=${MYSQL_USER}
-      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
-      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_ROOT_PASSWORD=<root pws>
+      - MYSQL_DATABASE=snipeit
+      - MYSQL_USER=snipeit
+      - MYSQL_PASSWORD=<pws>
   snipeit:
     image: snipe/snipe-it
-    container_name: snipe-it
     restart: always
     depends_on:
       - mysql
     volumes:
+      - ./data:/var/lib/snipeit
       - ./config:/config
+      - /etc/letsencrypt/live/<domain name>/fullchain.pem:/var/lib/snipeit/ssl/snipeit-ssl.crt
+      - /etc/letsencrypt/live/<domain name>/privkey.pem:/var/lib/snipeit/ssl/snipeit-ssl.key
     environment:
-      - PGID=1000
-      - PUID=1000
+      - APP_ENV=production
+      - APP_DEBUG=false
+      - APP_KEY=<api key>
+      - APP_URL=<front url>
+      - APP_TIMEZONE=America/Toronto
+      - APP_LOCALE=en
+      - MYSQL_PORT_3306_TCP_ADDR=mysql
+      - MYSQL_DATABASE=snipeit
+      - MYSQL_USER=snipeit
+      - MYSQL_PASSWORD=<pws>
+      - MAIL_PORT_587_TCP_ADDR=<smpt server>
+      - MAIL_PORT_587_TCP_PORT=587
+      - MAIL_ENV_FROM_ADDR=<sender address>
+      - MAIL_ENV_FROM_NAME=<sender name>
+      - MAIL_ENV_ENCRYPTION=tcp
+      - MAIL_ENV_USERNAME=<sender username>
+      - MAIL_ENV_PASSWORD=<sender password>
     ports:
-      - "8080:80"
+      - "443:443"
