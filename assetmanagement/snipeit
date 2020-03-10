@@ -1,0 +1,16 @@
+[Unit]
+Description=Startup SnipeIT container on system boot
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=<USERNAME>
+WorkingDirectory=/srv/safer-lab/assetmanagement/
+ExecStartPre=/usr/bin/docker-compose down
+ExecStart=/usr/bin/docker-compose up
+ExecStop=/usr/bin/docker-compose down
+
+[Install]
+WantedBy=multi-user.target
