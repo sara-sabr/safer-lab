@@ -10,12 +10,13 @@ The system you wish to install thiis one must have the following already install
 
 ## Instructions
 
-1. Git clone this repository
+1. Go to ```/srv``` directory. ```cd /srv```
+2. Git clone this repository
 ```git clone https://github.com/sara-sabr/safer-lab.git```
 
-2. ```cd safer-lab/assetmanagement/```
+3. ```cd safer-lab/assetmanagement/```
 
-3. Modify the following values in docker-compose.yml
+4. Modify the following values in docker-compose.yml
 
 | Parameter                 | Description                |
 | ------------------------  | -------------------------- |
@@ -50,6 +51,7 @@ Let's encrypt is a service that provides certificates for free, however they exp
 
 Follow instructions found in: https://certbot.eff.org/ by selecting: My HTTP website is running __None of the above__ on __Ubuntu 18.04 LTS__.
 
-4. Now run ```docker-compose up -d```
-5. You should now access your site at HTTPS://```<domain name>```
-6. Follow the prompts to finish the installation.
+5. Run ```sudo install.sh```.
+5. Now run ```docker-compose up -d```
+6. You should now access your site at HTTPS://```<domain name>```
+7. Follow the prompts to finish the installation.
